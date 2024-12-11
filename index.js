@@ -68,3 +68,39 @@ if(jobTittle == 'Lawyer'){
     
 }
 
+
+var classmate = ['Ayo', 'Gbenga','Sydney', 'Ridwan', 'Damola', 'Tochukwu', 'Banjo' ]
+console.log(classmate);
+classmate.push('Ehis')
+console.log(classmate);
+classmate.push('Daniel')
+console.log(classmate);
+classmate.pop()
+console.log(classmate);
+classmate.pop()
+console.log(classmate);
+
+classmate.shift()
+console.log(classmate);
+classmate.unshift('Damola')
+console.log(classmate);
+classmate.unshift('Alex')
+console.log(classmate);
+
+console.log(classmate.length);
+console.log(classmate[0]);
+
+classmate[3]= 'Alabi'
+console.log(classmate);
+
+classmate[6]= 'Temidayo GMYC'
+console.log(classmate);
+
+
+
+
+
+
+// var testing = ['jadons', false, 50, null, undefined]
+// console.log(testing);
+
