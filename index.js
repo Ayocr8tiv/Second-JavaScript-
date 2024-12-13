@@ -97,8 +97,139 @@ classmate[6]= 'Temidayo GMYC'
 console.log(classmate);
 
 
+// var x = "Hello"
+// var y = 'World'
+// console.log(x + y);
 
 
+// JavaScripts Object
+
+var staff = {
+    fullName: 'Ayokunle Pastore',
+    job: 'Software Developer',
+    age: undefined,
+    disability: null,
+    wageParDay: 60000,
+    numberOfDayPresent: 10,
+    salary: function(){
+        return this.wageParDay*this.numberOfDayPresent
+        
+    },
+    maritalStatus: false,
+    phoneNumber: 8108982434,
+    hobbies: ['Coding', 'Traveling', 'Soccer',],
+    address: {
+        number: 17,
+        street: 'Alagomeji',
+        city: 'Yaba',
+        country: 'Nigeria',
+    }
+}
+
+staff.maritalStatus = true
+
+staff.hobbies = ['Playing Soccer', 'Traveling', 'Soccer',],
+staff.hobbies[0] = 'Coding'
+console.log(staff);
+console.log(staff);
+console.log(staff.hobbies[2]);
+console.log(staff.address.city);
+
+staff.address.city = 'Guru'
+
+console.log(staff.salary());
+
+
+
+
+
+function greeting (){
+    return console.log("Merry Christmas");
+    
+}
+greeting()
+
+
+function add(x, y){
+    var sum = x+y
+    return console.log(sum);
+    
+}
+add(10, 25)
+add(35, 72)
+
+function AreaOfSquare(l, b){
+    var AreaOfSquare = l*l
+    return console.log(AreaOfSquare);
+    
+}
+
+AreaOfSquare(10)
+
+function AreaOfCircle(r){
+    var AreaOfCircle = Math.PI * r**2
+    return console.log(AreaOfCircle);
+    
+}
+
+AreaOfCircle(10)
+
+function AreaOfTriangle(h,b){
+    var AreaOfTriangle = 0.5*h*b
+    return console.log(AreaOfTriangle);
+    
+}
+
+
+function Perimeter(a,b,c){
+    var Perimeter = a+b+c
+    return console.log(Perimeter);
+    
+}
+
+Perimeter(5, 7, 5)
+
+
+function salute(name){
+    return console.log("Hello " + name);
+    
+}
+salute("Ayokunle")
+function salute(name){
+    return console.log("Hello " + name);
+    
+}
+salute("Yoro")
+
+
+var score = 70
+// switch(score){
+//     case score <= 40:
+//         console.log("Your grade is D");
+//         break;
+//     case score >= 41 && score <= 50:
+//         console.log("Your grade is C");
+//         break;
+//     case score >= 51 && score <= 70:
+//         console.log("Your grade is B");
+//         break;
+//     default:
+//         console.log("Your grade is A");
+    
+        
+// }
+
+var score = 80;
+
+if (score <= 40) {
+    console.log("Your grade is D");
+} else if (score >= 41 && score <= 50) {
+    console.log("Your grade is C");
+} else if (score >= 51 && score <= 70) {
+    console.log("Your grade is B");
+} else {
+    console.log("Your grade is A");
+}
 
 
 // var testing = ['jadons', false, 50, null, undefined]
