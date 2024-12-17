@@ -232,6 +232,143 @@ if (score <= 40) {
 }
 
 
+var fullName2 = 'Ayokunle Oloidi'
+var job = "Developer"
+var salary = 20000
+var office  = 'Goggle'
+var sentence = "My name is " + fullName2 + " I am a Developer " + "I earn $" + salary + " at " + office
+
+console.log(sentence);
+
+let sentence2 = `My name is ${fullName2} i am a ${job} i earn $${salary} at ${office}`
+console.log(sentence2);
+
+// if(salary < 20000){
+//     console.log('She is a poor stripper')
+    
+// }else{
+//     console.log('She is a rich stripper');
+    
+// }
+
+
+salary > 20000 ? console.log('Poor Stripper') : console.log('Rich Striper');
+
+// function profit(cp, sp){
+//     var sub = sp - cp 
+//     return console.log();
+    
+// }
+
+// profit(2000, 5000)
+
+
+function AreaOfRectangle(l, b){
+    var AreaOfRectangle = l*b
+    return console.log(AreaOfRectangle);
+    
+}
+
+AreaOfRectangle(10, 20)
+
+
+function AreaOfCylinder(r, h){
+    var AreaOfCylinder = 2*(Math.PI)*r*h
+    return console.log(AreaOfCylinder);
+    
+}
+AreaOfCylinder(10, 14)
+
+
+function greeting(){
+    return console.log('Hello Every Body');
+    
+}
+greeting()
+
+// function sayBuhari(name){
+//     return console.log('Hello ' + name);
+    
+// }
+// sayBuhari('Baba')
+
+function sentence4(name, course, office, job, firm){
+    return console.log('My is name ' + name + ' im learning ' + course + " at " + office + 
+        ' and i want to work as a ' + job + ' at ' + firm);
+    
+}
+sentence4('Ayokunle', 'Software Development', 'GoMyCode', 'Backend Developer', 'Google')
+
+function areaOfSun(r){
+    var areaOfSun = 4*(Math.PI)*r**2
+    return console.log(Math.round(areaOfSun));
+    
+}
+areaOfSun(695700)
+
+var movies = ['God hand', 'Ben 10', 'Wickid Step Mother', 'Game of Throne', 'Avater']
+movies[1] = 'Osofia in London'
+
+movies.push('Spartacus')
+
+movies.pop()
+console.log(movies);
+
+movies.shift()
+console.log(movies);
+
+movies.unshift('God Hand')
+console.log(movies);
+
+var employee = {
+    fullName : 'Ayokunle Pastore',
+    email : 'ayocre8tiv@gmail.com',
+    phone : 8108982434,
+    married : false,
+    age : undefined,
+    skills : ['Graphics designer', 'Voice Over', 'Video Editor'],
+    address:{
+        number: 24,
+        street: 'Alagomeji',
+        city: 'Mainland',
+        state: 'Lagos',
+        country: 'Nigeria'
+    },
+    salary: 200000,
+
+    mortgage : function(){
+        return this.salary*(30/100);
+        
+    },
+
+    tax : function(){
+        return this.salary*(12.5/100)
+    },
+
+    tithe : function(){
+        return this.salary*(10/100)
+    }
+
+}
+
+console.log(employee.skills);
+
+employee.skills[0] = 'Writing'
+
+console.log(employee.skills);
+
+console.log(employee.mortgage());
+console.log(employee.tax());
+console.log(employee.tithe());
+
+
+
+
+
+
+
+
+
 // var testing = ['jadons', false, 50, null, undefined]
 // console.log(testing);
 
